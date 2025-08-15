@@ -669,7 +669,7 @@ input[type="range"] {
   .mic-icon,
   .plus-icon,
   .sign-in-img, .comment-img-section img, .comment-img-section input {
-    display: none;
+    display: none !important;
   }
   #main-thumbnail-video{
     border-radius: 10px !important;
@@ -831,4 +831,5 @@ margin: 5% 0;
 }
 
 }
+
 
