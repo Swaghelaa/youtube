@@ -1,0 +1,833 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    font-family: 'Roboto , arial, sans-serif';
+}
+
+.container, .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+}
+
+.menu {
+    display: flex;
+    /* margin: 1%;
+    align-items: center;
+}
+
+.menu i {
+    margin: 0 4%;
+    cursor: pointer;
+}
+
+.icon {
+    width: 20%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    position: relative;
+}
+
+.search-box {
+    width: 100%;
+    padding: 2% 4%;
+    border-radius: 20px;
+    border: 1.6px solid #ccc
+}
+
+.search-icon {
+    position: absolute;
+    right: 3%;
+    color: #cdcdcd;
+}
+
+.mic-icon {
+    position: absolute;
+    right: -8%;
+    background-color: #ededed;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.mic-icon:hover {
+    cursor: pointer;
+    background-color: #D9D9D9;
+}
+
+.plus-icon {
+    position: absolute;
+    right: -50%;
+    background-color: #ededed;
+    padding: 10px 15px;
+    border-radius: 25px;
+
+
+}
+.bell-icon{
+     position: absolute;
+    right: -55%;
+}
+.sign-in-img{
+    position: absolute;
+    right:-65%;
+    border-radius: 20px;
+    width:6%
+}
+
+.main-video{
+    width:75%;
+    background-color: aquamarine;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.thumbnail-video{
+    width: 25%;
+    background-color: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Center wrapper 
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Flex containers
+.container,
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Menu styles 
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.menu i {
+  margin: 0 4%;
+  cursor: pointer;
+}
+
+/* Icons 
+.icon {
+  width: 20%;
+}
+
+/* Search box and icons 
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  position: relative;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1.6px solid #ccc;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10%;
+  color: #cdcdcd;
+}
+
+.mic-icon {
+  position: absolute;
+  right: -8%;
+  background-color: #ededed;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.mic-icon:hover {
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+
+.plus-icon {
+  position: absolute;
+  right: -50%;
+  background-color: #ededed;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+.bell-icon {
+  position: absolute;
+  right: -55%;
+}
+
+.sign-in-img {
+  position: absolute;
+  right: -65%;
+  border-radius: 20px;
+  width: 6%;
+}
+
+/* Video sections 
+.main-video {
+  width: 75%;
+  background-color: aquamarine;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail-video {
+  width: 25%;
+  background-color: blue;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== MENU BAR ===== */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Left - Menu + Logo */
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  height: 20px;
+}
+
+/* Center - Search + Mic */
+.center-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  justify-content: center;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px 40px 10px 16px;
+  border-radius: 20px;
+  border: 1.5px solid #ccc;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+}
+
+.mic-icon {
+  background-color: #ededed;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Right - Icons + Profile */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.plus-icon {
+  background-color: #ededed;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.bell-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sign-in-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ===== VIDEO AREA ===== */
+.video-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.main-video {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#main-thumbnail-video {
+  width: 100%;
+  display: none;
+  height: auto;
+}
+
+.main-video>video {
+  width: 65%;
+}
+
+.main-video img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 100vh;
+  /* overflow-y: auto; */
+  padding: 10px 15px;
+  width: 35%;
+}
+
+.thumbnail-video {
+  width: 100%;
+  /* background-color: blue; */
+  height: auto;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  color: white;
+  /* position: relative; */
+  /* max-width: 40%; */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#myProgressBar {
+  position: absolute;
+  width: 97%;
+  bottom: 60px;
+  height: 4px;
+  cursor: pointer;
+  background-color: #ededed;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+}
+
+.play-icon {
+  color: #fff;
+  position: absolute;
+  bottom: 4%;
+  left: 4%;
+  cursor: pointer;
+  font-size: 25px;
+
+}
+
+.next-icon {
+  color: #fff;
+  position: absolute;
+  bottom: 4%;
+  left: 8%;
+  cursor: pointer;
+  font-size: 25px;
+
+}
+
+.volume-icon {
+  color: #fff;
+  position: absolute;
+  bottom: 4%;
+  left: 12%;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.toggle-icon-on {
+  color: #fff;
+  position: absolute;
+  bottom: 4%;
+  right: 12%;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.setting-icon {
+  color: #fff;
+  position: absolute;
+  bottom: 4%;
+  right: 7%;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.expand-icon {
+  color: #fff;
+  position: absolute;
+  bottom: 4%;
+  right: 3%;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  bottom: -11%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-dynamic:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.sony-logo {
+  position: absolute;
+  width: 5% !important;
+  bottom: -22%;
+  left: 0;
+}
+
+.music-title {
+  position: absolute;
+  bottom: -18%;
+  left: 6%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.music-numbers {
+  position: absolute;
+  bottom: -22%;
+  left: 6%;
+  font-size: 11px;
+  color: gray;
+}
+
+.subcribe-btn {
+  position: absolute;
+  left: 22%;
+  bottom: -20%;
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.subcribe-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: ease-in 0.1s;
+}
+
+.like-btn {
+  position: absolute;
+  left: 61%;
+  bottom: -20%;
+  padding: 1% 2%;
+  background-color: #f5f5f5;
+  padding: 1% 2%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.like-btn>span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.dislike-btn {
+  position: absolute;
+  left: 70%;
+  bottom: -20%;
+  padding: 1% 0;
+  background-color: #f5f5f5;
+  padding: 1% 1%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+
+.share-btn {
+  position: absolute;
+  left: 75%;
+  bottom: -20%;
+  background-color: #f5f5f5;
+  padding: 1%;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.save-btn {
+  display: none !important; 
+}
+
+.share-btn>span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.download-btn {
+  position: absolute;
+  left: 85%;
+  bottom: -20%;
+  background-color: #f5f5f5;
+  padding: 1%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.download-btn>span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+
+.thumbnail-video img {
+  width: 40%;
+  /* position: absolute; */
+  left: 5%;
+  border-radius: 10px
+}
+
+.thumb-img {
+  width: 100%;
+}
+
+.thumbnail-content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-titles {
+  margin-top: 10px;
+  width: 50%;
+  color: #000;
+  position: absolute;
+  left: 45%;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.thumbnail-subtitles {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.thumbail-numbers {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.description-box {
+  position: absolute;
+  bottom: -38%;
+  background-color: #f5f5f5;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.comment-section {
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.comment-section>span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 2.5vw;
+  display: block !important;
+}
+
+.comment-img-section img {
+  position: absolute;
+  width: 5%;
+  bottom: -60%;
+  left: 0;
+  border-radius: 25px;
+  margin: 10px 0;
+}
+
+.comment-img-section input {
+  position: absolute;
+  bottom: -60%;
+  left: 10%;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+@media (max-width:540px) {
+
+  .fa-bars,
+  .search-box,
+  .mic-icon,
+  .plus-icon,
+  .sign-in-img, .comment-img-section img, .comment-img-section input {
+    display: none;
+  }
+  #main-thumbnail-video{
+    border-radius: 10px !important;
+  }
+
+  .search-icon,
+  .bell-icon {
+    margin: 0 5%;
+  }
+
+  .main-video {
+    width: 100%;
+  }
+
+  .play-icon {
+    font-size: 15px;
+  }
+
+  .next-icon {
+    font-size: 15px;
+    left: 10%;
+  }
+
+  .volume-icon {
+    font-size: 15px;
+    left: 16%;
+  }
+
+  .toggle-icon-on {
+    font-size: 15px;
+    right: 16%;
+  }
+
+  .setting-icon {
+    font-size: 15px;
+    right: 9%;
+  }
+
+  .expand-icon {
+    font-size: 15px;
+    right: 3%;
+  }
+
+  #myProgressBar {
+    bottom: 30px;
+  }
+
+  .title{
+    bottom: -20%;
+    font-size: 13px;
+  }
+
+  .sony-logo {
+    width: 10% !important;
+    bottom: -40%;
+  }
+
+  .music-title {
+    bottom: -34%;
+    left: 10%;
+    font-size: 13px;
+  }
+  .music-numbers {
+    bottom: -34%;
+    left: 40%;
+    font-size: 12px;
+  }
+  .subcribe-btn{
+    left: 75%;
+    bottom: -34%;
+    padding: 6px 12px !important;
+    font-size: 12px;
+  }
+
+  .comment-section {
+    bottom: -72%;
+    font-size: 14px;
+  }
+  .comment-section>span{
+    display: none !important;
+  }
+
+
+  .like-btn {
+    left: 0;
+    bottom: -55%;
+    font-size: 12px;
+  }
+
+  .like-btn>span {
+    font-size: 12px;
+  }
+
+  .dislike-btn {
+    left: 60px;
+    bottom: -55%;
+    font-size: 12px;
+  }
+
+  .share-btn {
+    left: 27%;
+    bottom: -55%;
+    font-size: 12px;
+
+  }
+
+  .save-btn {
+    display: block !important;
+    position: absolute;
+    left: 52%;
+    bottom: -55%;
+    background-color: #f5f5f5;
+    padding: 1%;
+    font-size: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .save-btn>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  .download-btn {
+    left: 75%;
+    bottom: -55%;
+    font-size: 12px;
+  }
+  .description-box {
+    bottom: -125%;
+    font-size: 12px;
+  }
+  .sidebar{
+position: absolute;
+top: 82%;
+padding: 0px 0px;
+width: 100%;
+
+}
+
+.thumbnail-video img{
+position:relative;
+width:90% !important;
+left:0;
+margin: 10% 0;
+}
+
+.thumbnail-titles {
+    margin-top: 0px;
+    width: 90% !important;
+    color: #000;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    font-size: 13px;
+    font-weight: 700;
+}
+}
